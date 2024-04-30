@@ -1,0 +1,151 @@
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    background-image: url('https://image.popmama.com/content-images/post/20231117/JKT48%205-dRcpfbSCg0pRXf3MxBP6693R8Ff3YWXk.jpg?width=600&height=315');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body h1:nth-child(1) {
+    text-align: center;
+    font-family: 'Josefin Sans';
+    background-color: rgb(0, 255, 170);
+    margin: 0.5rem auto 0;
+    padding: 1.5rem;
+    width: 87%;
+    border-radius: 1rem;
+    position: sticky;
+    top: 0;
+    box-shadow: 0 0.2rem 0.2rem black;
+    z-index: 9999;
+}
+
+.card p:nth-child(1) {
+    font-size: 3rem;
+    background-color: lightpink;
+    position: absolute;
+    margin: 0;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    top: -1rem;
+    right: -1rem;
+    border: 1px solid black;
+    transition: 0.2s;
+}
+
+.card p:nth-child(1):hover {
+    transform: scale(1.2);
+}
+
+.container {
+    display: flex;
+    width: 90%;
+    margin: 20px auto 0;
+    justify-content: space-between;
+    position: relative;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 260px;
+    border: 1px solid black;
+    margin: 20px auto 0;
+    margin-bottom: 2rem;
+    border-radius: 20px;
+    position: relative;
+    transition: 0.2s;
+    box-shadow: 0 0.5rem 0.5rem 0 black;
+    background-color: white;
+    z-index: 9;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.warna {
+    width: 260px;
+    height: 100px;
+    background-color: aquamarine;
+    position: absolute;
+    border-radius: 20px 20px 0 0;
+    z-index: -3;
+}
+
+.card h1 {
+    text-align: center;
+    font-family: 'Dancing Script';
+    margin-top: 3rem;
+}
+
+.card p {
+    font-family: 'Josefin Sans';
+    text-align: center;
+    margin: 0 1rem;
+}
+
+.freya, .gita, .zee, .adel, .christy, .aurel, .haruka, .sisca {
+    width: 6rem;
+    height: 6rem;
+    margin: 3.6rem auto 0;
+    border-radius: 50%;
+    background-image: url('https://cdn1-production-images-kly.akamaized.net/NKU5cbFBOWpqtLc3vMhr_tMqauA=/800x800/smart/filters:quality(75):strip_icc():format(webp)/kly-media-production/medias/4625469/original/064247900_1698333191-freya_body_lipt6.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: 0.3s;
+    border: 3px solid white;
+}
+
+.gita {
+    background-image: url('https://cdn.idntimes.com/content-images/community/2023/06/whatsapp-image-2023-06-26-at-32849-pm-2-770cbc2889bb4c14bf5042be7b505d5d-3e539a9d31149a0ddc3efeacada3d251.jpeg');
+    background-image: url('https://cdn.idntimes.com/content-images/community/2023/06/whatsapp-image-2023-06-26-at-32849-pm-2-770cbc2889bb4c14bf5042be7b505d5d-3e539a9d31149a0ddc3efeacada3d251.jpeg');
+}
+
+.zee {
+    background-image: url('https://static.promediateknologi.id/crop/0x0:0x0/0x0/webp/photo/jawapos/2022/04/zee-jkt48.jpg');
+}
+
+.adel {
+    background-image: url('https://static.promediateknologi.id/crop/0x0:0x0/750x500/webp/photo/p1/664/2024/02/02/IMG_20240202_101126-2284107931.jpg');
+}
+
+.christy {
+    background-image: url('https://thumb.viva.id/intipseleb/1265x711/2023/02/21/63f408ba66ce0-christy-jkt48.jpg');
+}
+
+.aurel {
+    background-image: url('https://assets.pikiran-rakyat.com/crop/0x0:0x0/x/photo/2020/11/12/1179737034.jpg');
+}
+
+.haruka {
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/3/34/Kaleidoskop_Ini_Talkshow_2016_-_Keren%21_Ini_Talkshow_Sampai_ke_Negeri_Sakura_2m20s.jpg');
+}
+
+.sisca {
+    background-image: url('https://awsimages.detik.net.id/community/media/visual/2023/03/16/sisca-saras_43.jpeg?w=1200');
+}
+
+.freya:hover, .gita:hover, .zee:hover, .adel:hover, .christy:hover, .aurel:hover, .haruka:hover, .sisca:hover {
+    transform: scale(2);
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+}
+
+.icon a {
+    display: block;
+    margin: 3rem 1rem;
+    color: black;
+    transition: 0.2s;
+}
+
+.icon a:hover {
+    transform: scale(1.5);
+}
